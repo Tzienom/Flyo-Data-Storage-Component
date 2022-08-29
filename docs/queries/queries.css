@@ -1,0 +1,80 @@
+@media(max-width: 300px) {
+     
+    h1, .h1 { font-size: 0.9rem; }
+    
+    .free__space {
+        top: 160px;
+        padding: .5em;
+    }
+}
+
+
+@media(max-width: 196px) {
+    
+    .free__space { top: 190px; }
+}
+
+
+@media(min-width: 885px) {
+    
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: var(--Very-Dark-Blue) url("../images/bg-desktop.png") no-repeat center bottom;
+        background-size: contain;
+    }
+    
+    .container {
+        padding: 0;
+        width: 80%;
+        max-width: 1440px;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .col + .col { margin-top: 0; }
+        
+    .col-1 {
+        width: 40%;
+        max-width: 370px;
+    }
+    
+    .col-2 { 
+        width: 55%;
+        padding-bottom: 2.5em;
+        margin-left: 3em;
+        
+    }
+        
+    .col-2 .text-align-2 { text-align: left; }
+    
+}
+
+
+@media(min-width: 1440px) {
+    
+    .col-2 {
+        max-width: 633px;
+    }
+    
+    .free__space {
+        top: -30%;
+        left: 66%;
+        border-radius: 10px 10px 0 10px;
+    }
+    
+    .free__space::after {
+        content: " ";
+        border-top: 40px solid #fff;
+        border-left: 30px solid transparent;
+        border-right: 0px solid transparent;
+        position: absolute;
+        left: 150px;
+    }
+}
