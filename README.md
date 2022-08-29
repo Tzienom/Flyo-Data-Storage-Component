@@ -26,14 +26,15 @@ Users should be able to:
 ![HTML & CSS](./screenshot/code.png)
 ![HTML & CSS](./screenshot/code2.png)
 ![HTML & CSS](./screenshot/code3.png)
-![375px screenshot](./screenshot/375x.png)
+![375px screenshot](./screenshot/375px.png)
 ![1440px screenshot](./screenshot/1440px.png)
 
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/flyo-data-storage-data-component-master-QptwXyTYeB](https://www.frontendmentor.io/solutions/flyo-data-storage-data-component-master-QptwXyTYeB)
+
+- Live Site URL: [https://tzienom.github.io/Flyo-Data-Storage-Component/](https://tzienom.github.io/Flyo-Data-Storage-Component/)
 
 ## My process
 
